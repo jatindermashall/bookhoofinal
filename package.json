@@ -1,0 +1,44 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "latest",
+    "lodash": "^4.17.5",
+    "mysql": "latest",
+    "pg": "latest",
+    "strapi": "3.0.1",
+    "strapi-admin": "3.0.1",
+    "strapi-connector-bookshelf": "3.0.1",
+    "strapi-hook-bookshelf": "3.0.0-beta.16",
+    "strapi-hook-knex": "3.0.0-beta.16",
+    "strapi-plugin-content-manager": "3.0.1",
+    "strapi-plugin-content-type-builder": "3.0.1",
+    "strapi-plugin-email": "3.0.1",
+    "strapi-plugin-graphql": "^3.0.0-beta.16",
+    "strapi-plugin-settings-manager": "3.0.0-beta.16",
+    "strapi-plugin-upload": "3.0.1",
+    "strapi-plugin-users-permissions": "^3.0.1",
+    "strapi-utils": "3.0.1",
+    "typy": "^3.1.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "28e9a9af-bbbf-4b2a-80eb-fd3642025d56"
+  },
+  "engines": {
+    "node": ">=14.2.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
